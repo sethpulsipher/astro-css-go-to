@@ -3,6 +3,7 @@
   "displayName": "Astro CSS Go To",
   "description": "Jump to CSS class definitions in Astro files.",
   "version": "0.0.1",
+  "publisher": "sethify",
   "engines": {
     "vscode": "^1.74.0"
   },
