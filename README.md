@@ -1,16 +1,10 @@
 # astro-css-go-to README
 
-This is the README for your extension "astro-css-go-to". After writing up a brief description, we recommend including the following sections.
+This VS Code extension allows for jumping and peeking CSS definitions within an Astro file.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Press F12 when hovering over a class name in HTML and watch the magic happen.
 
 ## Requirements
 
@@ -30,6 +24,8 @@ This extension contributes the following settings:
 ## Known Issues
 
 Not finding the right class when there are multiple of the same classes in your file.
+
+> Warning: Still in Beta mode
 
 ## Release Notes
 
