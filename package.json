@@ -26,7 +26,25 @@
         "key": "F12",
         "when": "editorTextFocus && editorLangId == 'astro'"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Astro CSS Go To",
+      "properties": {
+        "astro-css-go-to.definitionAction": {
+          "type": "string",
+          "default": "jump",
+          "enum": [
+            "jump",
+            "peek"
+          ],
+          "description": "Specifies the action to take when going to a CSS definition.",
+          "enumDescriptions": [
+            "Jump directly to the CSS definition.",
+            "Show the CSS definition in a peek editor."
+          ]
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
