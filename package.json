@@ -5,6 +5,11 @@
   "version": "0.0.1",
   "publisher": "sethify",
   "repository": "https://github.com/sethpulsipher/astro-css-go-to",
+  "keywords": [
+    "Astro",
+    "Astro CSS",
+    "Astro CSS peek"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
